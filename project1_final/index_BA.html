@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LOCAL FUN</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?onload=init&libraries=places&callback=activatePlacesSearch"></script>
+  <script src="https://apis.google.com/js/client.js" type="text/javascript"></script>
+
+
+
+
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <div id="logo">
+        <h1><span id="span1">LOCAL FUN</span><span id="span2">  AT LOCATIONS</span></h1>
+      </div>
+      <!--END OF LOGO ID-->
+    </header>
+    <!--END OF HEADER-->
+
+    <div id="searchbar">
+      <h2> Enter the city name to know about attractions and news </h2>
+      <input type="search" id="searchtxt" class="search-field" placeholder="city,state....">
+      <span><input type="submit" name="search-btn" id="searchbtn" value="" /></span>
+    </div>
+    <!--END OF SEARCHBAR ID-->
+
+    <div id="history">
+      <ul>
+      </ul>
+    </div>
+    <!--END OF HISTORY-->
+
+    <div id="map" class="map"></div> <!--END OF MAP ID-->
+    <div id="imageresults" ></div> <!--END OF IMAGERESULTS ID-->
+
+    <div id = "videoresults">
+      <ul id="results"></ul> <!--END OF UL-->
+      <div id="buttons"></div> <!--END OF RESULTS-->
+    </div>
+    <!-- END OF VIDEORESULTS-->
+  </div>
+  <!--END OF WRAPPER-->
+
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?onload=init&libraries=places&callback=activatePlacesSearch"></script>
+  <script src="https://apis.google.com/js/client.js" type="text/javascript"></script>
+
+
+</body>
+</html>
